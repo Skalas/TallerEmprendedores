@@ -1,2 +1,46 @@
-#+TITLE: Presentacion
+#+TITLE: Data Data Data
 #+AUTHOR: Miguel Escalante
+#+DATE: 11-Mar-2021
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+LANGUAGE:  es
+#+OPTIONS: num:nil toc:nil
+#+OPTIONS: reveal_mathjax:t 
+#+REVEAL_THEME: moon
+#+REVEAL_PLUGINS: (highlight markdown notes)
+#+REVEAL_SLIDE_NUMBER: t
+#+REVEAL_HEAD_PREAMBLE: <meta name="description" content="ITAM Maestría en Ciencia de Datos">
+#+REVEAL_HEAD_PREAMBLE: <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+#+REVEAL_HIGHLIGHT_CSS: https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js
+
+* ¿Quién soy?
+** Miguel Escalante
+#+ATTR_REVEAL: :frag (appear)
+- Data Scientist (~10 años en esto)
+- Software Designer Data Scientist en [[https://globant.com][Globant]]
+- Presidente en [[https://sociedat.org][Sociedat]]
+- Profesor Tiempo Parcial ITAM
+- Matemático y proto-maestro en Ciencia de datos
+- Mentor en [[https://epiclab.itam.mx][Epic Lab]] 
+
+
+* Ciencia
+
+#+begin_export html
+<img src="https://64.media.tumblr.com/tumblr_m57lruqZJi1qafos2o1_r1_500.gifv" />
+#+end_export
+
+** Toma de decisiones basadas en evidencia 
+#+ATTR_REVEAL: :frag (appear)
+*** Complejidad y velocidad de cambio.
+*** Sesgo de confirmación.
+#+begin_export html
+<img src="https://i.imgur.com/vPFogQ5.gif" />
+#+end_export
+*** Metas y objetivos medibles.
+
+
+* Datos 
+#+begin_export html
+<img src="https://64.media.tumblr.com/tumblr_m57lruqZJi1qafos2o2_r2_500.gifv" /> 
+#+end_export
+
