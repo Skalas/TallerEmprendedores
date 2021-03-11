@@ -13,6 +13,11 @@
 #+REVEAL_HIGHLIGHT_CSS: https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js
 
 * ¿Quién soy?
+** 
+#+begin_export html
+<img src="https://i.pinimg.com/originals/58/80/ef/5880ef672981142ff41ded2c0c25782c.gif"/>
+#+end_export
+
 ** Miguel Escalante
 #+ATTR_REVEAL: :frag (appear)
 - Data Scientist (~10 años en esto)
@@ -22,25 +27,100 @@
 - Matemático y proto-maestro en Ciencia de datos
 - Mentor en [[https://epiclab.itam.mx][Epic Lab]] 
 
-
 * Ciencia
 
 #+begin_export html
 <img src="https://64.media.tumblr.com/tumblr_m57lruqZJi1qafos2o1_r1_500.gifv"/>
 #+end_export
 
-** Toma de decisiones basadas en evidencia 
+** Toma de decisiones con Datos
 #+ATTR_REVEAL: :frag (appear)
-*** Complejidad y velocidad de cambio.
-*** Sesgo de confirmación.
-#+begin_export html
+- Complejidad y velocidad de cambio.
+- Sesgo de confirmación.
+  #+begin_export html
 <img src="https://i.imgur.com/vPFogQ5.gif"/>
 #+end_export
-*** Metas y objetivos medibles.
+- Metas y objetivos medibles.
+** Frases famosas
+#+ATTR_REVEAL: :frag (appear)
+- "Si, nuestra población objetivo son los hipsters." -- CEO.
+- "Diciembre siempre es un mes alto/bajo para la compañía." -- Sales head.
+- "Queremos llegar a 10 millones de usuarios para 2022." -- Angel investor.
+- "Estamos usando Inteligencia Artificial" -- CTO. 
+** Preguntas importantes
+#+ATTR_REVEAL: :frag (appear)
+- ¿Quienes son los hipsters?
+- Historicamente cómo se comporta y **¿Por qué?**
+- ¿Cuántos usuarios tenemos hoy? ¿se puede llegar a ese número?
+- ¿En qué? ¿Para qué? 
 
+** Think
+#+begin_export html
+<img src="https://media0.giphy.com/media/8rk1lLt58hmPS/giphy.gif">
+#+end_export
+#+ATTR_REVEAL: :frag (appear)
+Piensen la información más importante que quieren recabar hoy. 
 
 * Datos 
+
 #+begin_export html
 <img src="https://64.media.tumblr.com/tumblr_m57lruqZJi1qafos2o2_r2_500.gifv" /> 
 #+end_export
+
+** Recopilación
+#+ATTR_REVEAL: :frag (appear)
+- ¿Qué datos internos son relevantes para el negocio?
+- ¿Cómo recabo la opinión de mis usuarios? /framing/
+- ¿Hay sesgo en los datos que recabo? /Fallas de origen/ 
+  
+** Almacenaje
+#+ATTR_REVEAL: :frag (appear)
+- ¿Dónde guardarla?
+- ¿Quién tiene acceso?
+- ¿Con qué periodicidad se consulta/actualiza?
+
+** Uso
+#+ATTR_REVEAL: :frag (appear)
+- Análisis
+- Hipótesis
+- Experimentación
+- Evaluación
+- Loop
+
+* Herramientas
+#+begin_export html
+<img src="https://media.giphy.com/media/l2Je0ZdFV02q7wncc/giphy.gif"  />
+#+end_export
+** Simplifique
+- ¿Qué es lo mínimo que necesito hoy para tomar mejores decisiones?
+- No necesito una infraestructura compleja.
+** Herramientas gratuitas
+- Google Suite
+- R 
+- Python 
+** Live Demo
+** Infraestructura
+- ¿AWS?
+- ¿GCP?
+- ¿Azure?
+#+ATTR_REVEAL: :frag (appear)
+La que les acomode más *SI* ya están ahí. 
+
+* ¿Inteligencia Artificial? 
+#+begin_export html
+<img src="https://media.giphy.com/media/kE6xCyOOHoxlS/giphy.gif"/>
+#+end_export
+* Yo, mañana.
+#+begin_export html
+<img src="https://media.giphy.com/media/TEzuXSsnH88Lby5CkO/giphy.gif">
+#+end_export
+** Procesos
+#+ATTR_REVEAL: :frag (appear)
+- Abstracción
+- Resiliencia
+- 
+** Escalabilidad
+- ¿Cómo se ve esto con 10x lo que tengo hoy?
+- ¿Y com 1000x?
+- ¿Cuándo debería hacer el switch? 
 
