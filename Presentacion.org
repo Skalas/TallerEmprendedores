@@ -1,2 +1,8 @@
 #+TITLE: Presentacion
 #+AUTHOR: Miguel Escalante
+#+DATE:  11-Mar-2021
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+
+* Datos al centro de la organización
+
+* Segundo Tema
