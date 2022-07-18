@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<title>Data Data Data</title>
+<meta name="author" content="(Miguel Escalante)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/moon.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'https://cdn.jsdelivr.net/npm/reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+<meta name="description" content="ITAM Maestría en Ciencia de Datos">
+<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Data Data Data</h1><h2 class="author">Miguel Escalante</h2><h2 class="date">11-Mar-2021</h2><p class="date">Created: 2021-03-23 Tue 00:27</p>
+</section>
+
+<section>
+<section id="slide-org7571e91">
+<h2 id="org7571e91">¿Quién soy?</h2>
+<div class="outline-text-2" id="text-org7571e91">
+</div>
+</section>
+<section id="slide-orgdd4c09f">
+<h3 id="orgdd4c09f"></h3>
+<img src="https://i.pinimg.com/originals/58/80/ef/5880ef672981142ff41ded2c0c25782c.gif"/>
+
+</section>
+<section id="slide-org6d22c03">
+<h3 id="org6d22c03">Miguel Escalante</h3>
+<ul>
+<li class="fragment appear">Data Scientist (~10 años en esto)</li>
+<li class="fragment appear">Software Designer Data Scientist en <a href="https://globant.com">Globant</a></li>
+<li class="fragment appear">Presidente en <a href="https://sociedat.org">Sociedat</a></li>
+<li class="fragment appear">Profesor Tiempo Parcial ITAM</li>
+<li class="fragment appear">Matemático y proto-maestro en Ciencia de datos</li>
+<li class="fragment appear">Mentor en <a href="https://epiclab.itam.mx">Epic Lab</a></li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org4477151">
+<h2 id="org4477151">Ciencia</h2>
+<img src="https://64.media.tumblr.com/tumblr_m57lruqZJi1qafos2o1_r1_500.gifv"/>
+
+</section>
+<section id="slide-orge38f7b8">
+<h3 id="orge38f7b8">Toma de decisiones con Datos</h3>
+<ul>
+<li class="fragment appear">Complejidad y velocidad de cambio.</li>
+<li class="fragment appear"><p>
+Sesgo de confirmación.
+</p>
+<img src="https://i.imgur.com/vPFogQ5.gif"/></li>
+<li class="fragment appear">Metas y objetivos medibles.</li>
+
+</ul>
+</section>
+<section id="slide-orgcb2132d">
+<h3 id="orgcb2132d">Frases famosas</h3>
+<ul>
+<li class="fragment appear">"Si, nuestra población objetivo son los hipsters." &#x2013; CEO.</li>
+<li class="fragment appear">"Diciembre siempre es un mes alto/bajo para la compañía." &#x2013; Sales head.</li>
+<li class="fragment appear">"Queremos llegar a 10 millones de usuarios para 2022." &#x2013; Angel investor.</li>
+<li class="fragment appear">"Estamos usando Inteligencia Artificial" &#x2013; CTO.</li>
+
+</ul>
+</section>
+<section id="slide-org79de8c1">
+<h3 id="org79de8c1">Preguntas importantes</h3>
+<ul>
+<li class="fragment appear">¿Quienes son los hipsters?</li>
+<li class="fragment appear">Historicamente cómo se comporta y <b><b>¿Por qué?</b></b></li>
+<li class="fragment appear">¿Cuántos usuarios tenemos hoy? ¿se puede llegar a ese número?</li>
+<li class="fragment appear">¿En qué? ¿Para qué?</li>
+
+</ul>
+
+</section>
+<section id="slide-org610b01d">
+<h3 id="org610b01d">Think</h3>
+<img src="https://media0.giphy.com/media/8rk1lLt58hmPS/giphy.gif">
+<p class="fragment (appear)">
+Piensen la información más importante que quieren recabar hoy. 
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-org5a714b6">
+<h2 id="org5a714b6">Datos</h2>
+<img src="https://64.media.tumblr.com/tumblr_m57lruqZJi1qafos2o2_r2_500.gifv" /> 
+
+</section>
+<section id="slide-org5ec2689">
+<h3 id="org5ec2689">Recopilación</h3>
+<ul>
+<li class="fragment appear">¿Qué datos internos son relevantes para el negocio?</li>
+<li class="fragment appear">¿Cómo recabo la opinión de mis usuarios? <i>framing</i></li>
+<li class="fragment appear">¿Hay sesgo en los datos que recabo? <i>Fallas de origen</i></li>
+
+</ul>
+
+</section>
+<section id="slide-orgf49e6b0">
+<h3 id="orgf49e6b0">Almacenaje</h3>
+<ul>
+<li class="fragment appear">¿Dónde guardarla?</li>
+<li class="fragment appear">¿Quién tiene acceso?</li>
+<li class="fragment appear">¿Con qué periodicidad se consulta/actualiza?</li>
+
+</ul>
+
+</section>
+<section id="slide-orge14269d">
+<h3 id="orge14269d">Uso</h3>
+<ul>
+<li class="fragment appear">Análisis</li>
+<li class="fragment appear">Hipótesis</li>
+<li class="fragment appear">Experimentación</li>
+<li class="fragment appear">Evaluación</li>
+<li class="fragment appear">Loop</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orge956487">
+<h2 id="orge956487">Herramientas</h2>
+<img src="https://media.giphy.com/media/l2Je0ZdFV02q7wncc/giphy.gif"  />
+</section>
+<section id="slide-org244fc50">
+<h3 id="org244fc50">Simplifique</h3>
+<ul>
+<li>¿Qué es lo mínimo que necesito hoy para tomar mejores decisiones?</li>
+<li>No necesito una infraestructura compleja.</li>
+
+</ul>
+</section>
+<section id="slide-org199304f">
+<h3 id="org199304f">Herramientas gratuitas</h3>
+<ul>
+<li>Google Suite</li>
+<li>R</li>
+<li>Python</li>
+
+</ul>
+</section>
+<section id="slide-org94c441f">
+<h3 id="org94c441f">Live Demo</h3>
+</section>
+<section id="slide-orgf2c269b">
+<h3 id="orgf2c269b">Infraestructura</h3>
+<ul>
+<li>¿AWS?</li>
+<li>¿GCP?</li>
+<li>¿Azure?</li>
+
+</ul>
+<p class="fragment (appear)">
+La que les acomode más <b>SI</b> ya están ahí. 
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-org98f0033">
+<h2 id="org98f0033">¿Inteligencia Artificial?</h2>
+<img src="https://media.giphy.com/media/kE6xCyOOHoxlS/giphy.gif"/>
+</section>
+</section>
+<section>
+<section id="slide-org813def3">
+<h2 id="org813def3">Yo, mañana.</h2>
+<img src="https://media.giphy.com/media/TEzuXSsnH88Lby5CkO/giphy.gif">
+</section>
+<section id="slide-org7e1106f">
+<h3 id="org7e1106f">Procesos</h3>
+<ul>
+<li class="fragment appear">Abstracción</li>
+<li class="fragment appear">Resiliencia</li>
+<li class="fragment appear"></li>
+
+</ul>
+</section>
+<section id="slide-orgfad4f9c">
+<h3 id="orgfad4f9c">Escalabilidad</h3>
+<ul>
+<li>¿Cómo se ve esto con 10x lo que tengo hoy?</li>
+<li>¿Y com 1000x?</li>
+<li>¿Cuándo debería hacer el switch?</li>
+
+</ul>
+
+<p>
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; 50d3e89471965615a6ea5ad95144ffeec7822621
+</p>
+</section>
+</section>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+
+
+</script>
+</body>
+</html>
